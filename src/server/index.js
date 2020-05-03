@@ -16,7 +16,3 @@ app.get('/', function (req, res) {
 app.listen(8000, function () {
     console.log('Example app listening on port 8000!')
 })
-
-app.get('/test', function (req, res) {
-    res.send(mockAPIResponse)
-})
