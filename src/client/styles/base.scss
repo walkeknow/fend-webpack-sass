@@ -1,3 +1,7 @@
+@use 'footer';
+@use 'form';
+@use 'header';
+
 body {
     display: flex;
     flex-direction: column;
