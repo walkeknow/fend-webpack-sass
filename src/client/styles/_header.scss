@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+%style-shared {
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: #333;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.logo {
+    @extend %style-shared;
+    border-color: darkgoldenrod;
+}
+
+.nav {
+    @extend %style-shared;
+    border-color: rebeccapurple;
+}
